@@ -354,3 +354,5 @@ MigrationBackup/
 AssistMeProject/.vs/AssistMeProject/v15/Server/sqlite3/storage.ide-wal
 /AssistMeProject/AssistMeProject/Migrations/20190515151230_rm.cs
 /AssistMeProject/AssistMeProject/Migrations/20190515151230_rm.Designer.cs
+/AssistMeProject/AssistMeProject/Migrations/20190526002334_n.cs
+/AssistMeProject/AssistMeProject/Migrations/20190526002334_n.Designer.cs

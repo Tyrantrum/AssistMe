@@ -60,6 +60,8 @@
     <Compile Remove="Migrations\20190523170937_Studio.Designer.cs" />
     <Compile Remove="Migrations\20190523171231_Studio.cs" />
     <Compile Remove="Migrations\20190523171231_Studio.Designer.cs" />
+    <Compile Remove="Migrations\20190526001947_notificationtitle.cs" />
+    <Compile Remove="Migrations\20190526001947_notificationtitle.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -165,7 +167,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Migrations\" />
     <Folder Include="Views\Shared\Components\Stats\" />
     <Folder Include="wwwroot\uploads\" />
   </ItemGroup>
