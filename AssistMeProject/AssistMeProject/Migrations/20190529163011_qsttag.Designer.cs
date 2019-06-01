@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AssistMeProject.Migrations
 {
     [DbContext(typeof(AssistMeProjectContext))]
-    [Migration("20190526172348_AssistMe")]
-    partial class AssistMe
+    [Migration("20190529163011_qsttag")]
+    partial class qsttag
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
