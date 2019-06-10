@@ -52,19 +52,7 @@
         <!--|
         <a asp-action="Index">Back to List</a> -->
     </div>
-    <!-- <div id="commentlist_@Model.Id">
-
-         <ol class="commentlist clearfix">
-
-             @foreach (Comment item in Model.Comments)
-             {
-
-                 <Partial name="../Comments/_CommentPartial" model="item" view-data="ViewData" />
-             }
-         </ol>
-
-
-     </div>-->
+   
 
     @await Component.InvokeAsync("CommentList", new { AnswerId = Model.Id })
 </li>
